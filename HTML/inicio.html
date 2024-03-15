@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <title>14marzo2024</title>
+</head>
+
+<style>
+
+  body{
+    background-image: url(../IMAGES/komar.jpg);
+    background-repeat: repeat;
+    background-position: fixed;
+
+
+
+
+  }
+  .carousel {
+    margin: 75px;
+    border: 3px solid black;
+    padding: 25px;
+    background-color: rgba(119, 100, 100, 0.621);
+  }
+
+  .col {
+
+    border: 2px solid black;
+    margin: 3px;
+    padding: 5px;
+
+  }
+
+  h1 {
+    text-align: center;
+
+
+  }
+</style>
+
+<body>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h1> Información Personal</h1>
+        <form class="row g-3">
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> Catálogo </label>
+            <input type="number" class="form-control" id="validationDefault01" value="" required>
+          </div>
+          <div class="col-md-9">
+            <label for="validationDefault01" class="form-label"> Grado y Arma: </label>
+            <input type="text" class="form-control" id="validationDefault02" value="" required>
+          </div>
+          <div class="col-md-7">
+            <label for="validationDefault01" class="form-label"> Apellido: </label>
+            <input type="text" class="form-control" id="validationDefault03" value="  " required>
+          </div>
+          <div class="col-md-5">
+            <label for="validationDefault01" class="form-label"> Nombre: </label>
+            <input type="text" class="form-control" id="validationDefault04" value="" required>
+          </div>
+          <div class="col-md-7">
+            <label for="validationDefault01" class="form-label"> Fecha de Nacimiento: </label>
+            <input type="date" class="form-control" id="validationDefault05" value="" required>
+          </div>
+          <div class="col-md-5">
+            <label for="validationDefault01" class="form-label"> Lugar de Nacimiento: </label>
+            <input type="text" class="form-control" id="validationDefault06" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label"> Religión: </label>
+            <input type="text" class="form-control" id="validationDefault07" value="" required>
+          </div>
+          <div class="col-md-8">
+            <label for="validationDefault01" class="form-label"> Dirección Actual: </label>
+            <input type="text" class="form-control" id="validationDefault08" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label"> Teléfono Casa: </label>
+            <input type="number" class="form-control" id="validationDefault09" value="" required>
+          </div>
+          <div class="col-md-8">
+            <label for="validationDefault01" class="form-label"> Correo Electrónico: </label>
+            <input type="email" class="form-control" id="validationDefault10" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label"> Teléfono Celular: </label>
+            <input type="number" class="form-control" id="validationDefault11" value="" required>
+          </div>
+          <div class="col-md-8">
+            <label for="validationDefault01" class="form-label"> Correo Militar: </label>
+            <input type="email" class="form-control" id="validationDefault12" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label"> NIT: </label>
+            <input type="number" class="form-control" id="validationDefault13" value="" required>
+          </div>
+          <div class="col-md-8">
+            <label for="validationDefault01" class="form-label"> Profesión u Oficio: </label>
+            <input type="text" class="form-control" id="validationDefault14" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label"> Tipo de Sangre: </label>
+            <input type="text" class="form-control" id="validationDefault15" value="" required>
+          </div>
+          <div class="col-md-8">
+            <label for="validationDefault01" class="form-label"> Puesto que Desempeña: </label>
+            <input type="text" class="form-control" id="validationDefault16" value="" required>
+          </div>
+          <div class="col-md-8">
+            <label for="validationDefault01" class="form-label"> Fecha de alta en este Comando: </label>
+            <input type="date" class="form-control" id="validationDefault17" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label"> Orden General NO.: </label>
+            <input type="number" class="form-control" id="validationDefault18" value="" required>
+          </div>
+          <div class="col-md-9">
+            <label for="validationDefault01" class="form-label"> Fecha de alta como Oficial / Especialista del Ejército:
+            </label>
+            <input type="date" class="form-control" id="validationDefault19" value="" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> Promoción: </label>
+            <input type="number" class="form-control" id="validationDefault20" value="" required>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault01" class="form-label"> Número de DPI: </label>
+            <input type="number" class="form-control" id="validationDefault21" value="" required>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault01" class="form-label"> Lugar de Extensión: </label>
+            <input type="text" class="form-control" id="validationDefault22" value="" required>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+      <div class="carousel-item">
+        <h1> Información Familiar</h1>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="validationDefault01" class="form-label"> Nombre del Padre: </label>
+            <input type="text" class="form-control" id="validationDefault01" value="" required>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault01" class="form-label"> Dirección: </label>
+            <input type="text" class="form-control" id="validationDefault02" value="" required>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault01" class="form-label"> Nombre de la Madre: </label>
+            <input type="text" class="form-control" id="validationDefault03" value="" required>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault01" class="form-label"> Dirección: </label>
+            <input type="text" class="form-control" id="validationDefault04" value="" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> Estado Civil: </label>
+            <input type="text" class="form-control" id="validationDefault05" value="" required>
+          </div>
+          <div class="col-md-9">
+            <label for="validationDefault01" class="form-label"> Nombre del Conyuge: </label>
+            <input type="text" class="form-control" id="validationDefault06" value="" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> ¿Tiene Hijos? </label>
+          <div class="col-md-2 form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              SI
+            </label>
+          </div>
+          <div class="col-md-2 form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              NO
+            </label>
+          </div>
+          </div>
+          <div class="col-md-5">
+            <label for="validationDefault01" class="form-label"> ¿Cuántos? </label>
+            <input type="number" class="form-control">
+          </div>
+          <div class="col-md-9">
+            <label for="validationDefault01" class="form-label"> Nombre: </label>
+            <input type="text" class="form-control" id="validationDefault07" value="" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> Fecha de Nacimiento: </label>
+            <input type="date" class="form-control" id="validationDefault09" value="" required>
+          </div>
+          <div class="col-md-9">
+            <label for="validationDefault01" class="form-label"> Nombre: </label>
+            <input type="text" class="form-control" id="validationDefault08" value="" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> Fecha de Nacimiento: </label>
+            <input type="date" class="form-control" id="validationDefault09" value="" required>
+          </div>
+          <div class="col-md-9">
+            <label for="validationDefault01" class="form-label"> Nombre: </label>
+            <input type="text" class="form-control" id="validationDefault09" value="" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> Fecha de Nacimiento: </label>
+            <input type="date" class="form-control" id="validationDefault09" value="" required>
+          </div>
+
+          <h1>OTRA INFORMACIÓN</h1>
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> Estatura (METROS): </label>
+            <input type="text" class="form-control" id="validationDefault10" value="" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> Color de Cabello: </label>
+            <input type="text" class="form-control" id="validationDefault10" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label"> Tipo de Cabello: </label>
+            <input type="text" class="form-control" id="validationDefault10" value="" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> Peso (libras): </label>
+            <input type="text" class="form-control" id="validationDefault10" value="" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> Color de Ojos: </label>
+            <input type="text" class="form-control" id="validationDefault10" value="" required>
+          </div>
+          <div class="col-md-1">
+            <label for="validationDefault01" class="form-label"> Lunares, Cicatrices: </label>
+          </div>
+          <div class="col-md-1 form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              SI
+            </label>
+          </div>
+          <div class="col-md-1 form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              NO
+            </label>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault01" class="form-label"> Ubicación: </label>
+            <input type="text" class="form-control" id="validationDefault10" value="" required>
+          </div>
+          <h1>En caso de emergencia Llamar Avisar a:</h1>
+          <div class="col-md-7">
+            <label for="validationDefault01" class="form-label"> Nombre: </label>
+            <input type="text" class="form-control" id="validationDefault10" value="" required>
+          </div>
+          <div class="col-md-5">
+            <label for="validationDefault01" class="form-label"> Parentesco: </label>
+            <input type="text" class="form-control" id="validationDefault11" value="" required>
+          </div>
+          <div class="col-md-7">
+            <label for="validationDefault01" class="form-label"> Dirección: </label>
+            <input type="text" class="form-control" id="validationDefault12" value="" required>
+          </div>
+          <div class="col-md-5">
+            <label for="validationDefault01" class="form-label"> Telefono de Casa: </label>
+            <input type="number" class="form-control" id="validationDefault13" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label"> Telefono Celular: </label>
+            <input type="number" class="form-control" id="validationDefault14" value="" required>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-4"></div>
+      <div class="col-3">
+        <button class="p-3 mb-2 bg-dark " class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="vissually"></span>
+        </button>
+      </div>
+      <div class="col-3">
+        <button class="p-3  bg-dark" class="carousel-control-next" type="button"
+          data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
